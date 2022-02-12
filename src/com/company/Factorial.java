@@ -10,7 +10,7 @@ public class Factorial {
         return factorial;
     }
 
-    public static int getFactorialWhile(int f) {
+    public static int getFactorialWhile(int f ) {
         int a = 1;
         int factorial = 1;
         while (a < f) {

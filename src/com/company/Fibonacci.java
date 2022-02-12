@@ -14,7 +14,7 @@ public class Fibonacci {
         return fibonacci;
     }
 
-    public static int[] getFibonacciLoopDoWhile(int arrayFib) {
+    public static int[] getFibonacciLoopDoWhile(int arrayFib)  {
         int[] fibonacci = new int[arrayFib];
         fibonacci[0] = 0;
         fibonacci[1] = 1;
