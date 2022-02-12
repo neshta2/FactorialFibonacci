@@ -17,7 +17,7 @@ public class ChooseAlgorithm {
                 result = String.valueOf(Factorial.chooseLoopTypeOne(loopType, n));
                 break;
             default:
-                throw new IllegalStateException("Неверное значение " + algorithmId);
+                throw new IllegalStateException("Неверное значение " +  algorithmId);
         }
         return result;
     }
